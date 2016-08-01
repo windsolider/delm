@@ -1,0 +1,22 @@
+{
+  "name": "delm",
+  "version": "1.0.4",
+  "description": "a simple module for delete node_modules",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "echo prepublish",
+    "postpublish": "echo done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:windsolider/delm.git"
+  },
+  "author": "windsolider",
+  "license": "MIT",
+  "bin": {
+    "delm": "./index.js"
+  },
+  "dependencies": {
+    "node-cmd": "^1.1.1"
+  }
+}
